@@ -1,0 +1,14 @@
+{
+  "name": "mgcapital-v2",
+  "version": "1.0.0",
+  "description": "MG Capital Website V2",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manuel Goti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*"
+  }
+}
