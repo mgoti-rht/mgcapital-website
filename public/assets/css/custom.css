@@ -26,6 +26,11 @@ main {
   margin-right: 0.5rem;
 }
 
+.navbar-brand {
+  z-index: 1;
+  width: 28%
+}
+
 .company-name-top {
     text-transform: uppercase;
     font-size: 1.4rem;
@@ -128,12 +133,33 @@ li > a.nav-link-dark {
   border-bottom-color: #009547;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 1120px) {
   .masthead-brand {
     float: left;
   }
   .nav-masthead {
     float: right;
+  }
+}
+
+@media (max-width: 967px){
+  .navbar-nav {
+    font-size: 1rem;
+  }
+
+  .nav-masthead .nav-item + .nav-item {
+    margin-left: 0rem;
+  }
+}
+
+@media (max-width: 768px){
+  .navbar-expand-md .navbar-collapse {
+    background-color: rgba(255,255,255,0.9);
+    padding-left: 3em;
+    padding-bottom: 1em;
+  }
+  .nav-item {
+    width: fit-content;
   }
 }
 
